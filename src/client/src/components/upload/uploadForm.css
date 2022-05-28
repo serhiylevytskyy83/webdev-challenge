@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    
+}
+
+input{
+    display: block;
+}
+
+body{
+    background: #6990f2;
+    margin: 0;
+    padding: 20px 0 0 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.wrapper{
+    position: relative;
+    top: 275px;
+    bottom: 0;
+    left: 700px;
+    right: 0;
+    width: 430px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+}
+.wrapper header{
+    color: #6990f2;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+.selectField{
+    height: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px dashed #6990f2;
+    margin-bottom: 20px;
+}
+i.fa-solid.fa-cloud-arrow-up.fa-2xl {
+    margin-bottom: 25px;
+}
+.select{
+    background-color: #6990f2;
+}
+.uploadButton{
+    background-color: #6990f2;
+    border: 1px solid #154fe2;
+    padding: 2px 2px 0;
+    border-radius: 5px;
+}
